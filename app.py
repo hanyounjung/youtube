@@ -13,7 +13,7 @@ st.set_page_config(page_title="유튜브 댓글 분석기", layout="wide")
 st.title("📺 유튜브 댓글 분석 웹앱")
 st.caption("유튜브 영상 링크를 입력하면 댓글을 수집하고 시간대별 추이, 좋아요 수, 자주 등장하는 단어를 분석합니다.")
 
-API_KEY = st.secrets["AIzaSyCM44tv2aR1f7Ch0fANaQTTzY-WquSE5zY"]
+API_KEY = st.secrets["YOUTUBE_API_KEY"]
 
 okt = Okt()
 
